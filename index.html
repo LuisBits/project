@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio | Hotel ...</title>
+
+    <!-- Hojas de estilo (CSS) -->
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/semantic-ui/2.2.9/semantic.min.css">
+    <link rel="stylesheet" href="main.css">
+    <!-- FIN: Hojas de estilo (CSS) -->
+
+
+</head>
+
+<body>
+    <div class="ui grid">
+
+        <div class="row header">
+            <div class="three wide column logo">
+                <img src="img/hotel4.svg" alt="logo" width="100">
+            </div>
+
+            <!-- Menú de navegación -->
+
+            <div class="computer only thirteen wide column">
+                <div class="ui secondary borderless pointing red large menu navbar">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <a class="active item">Inicio</a>
+                    <a class="item">Habitaciones</a>
+                    <a class="item">Galería</a>
+                    <a class="item">Reservas</a>
+                    <a class="item">Otros Servicios</a>
+                    <a class="item">Contacto</a>
+                    <div class="right menu">
+                        <div class="item">
+                            <div class="ui dropdown flags">
+                                <img src="img/banderas/ES.png" class="ui middle aligned image" alt="flag ES" /> <i class="dropdown icon"></i>
+                                <div class="menu">
+                                    <a class="item active " href=""><img src="img/banderas/ES.png" class="ui middle aligned image" alt="flag ES" /></i> Español</a>
+                                    <a class="item" href=""><img src="img/banderas/GB.png" class="ui middle aligned image" alt="flag FR" /> English</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="item admin"><i class="lock icon"></i> Admin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- En tamaños a partir de tablet, el menú se pliega. -->
+            <div class="mobile tablet only thirteen wide column ajuste">
+                <!-- <div class="ui secondary pointing menu">                    
+                    <a class="active item">Inicio</a>
+                    <a class="item">Habitaciones</a>
+                    <a class="item">Galería</a>
+                    <a class="item">Otros Servicios</a>
+                    <div class="right menu">
+                        <a class="item">Sign Up</a>
+                        <a class="item">Help</a>
+                    </div>
+                </div> -->
+                <div id="main_navigation_collapsed" class="ui red secondary borderless attached fluid menu">
+                    <a href="" class="brand item"><strong>&nbsp;&nbsp;&nbsp;Habitaciones</strong></a>
+                    <div class="right menu item">
+                        <div class="ui dropdown flags">
+                            <img src="img/banderas/ES.png" class="ui middle aligned image" alt="flag ES" /> <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <a class="item active " href=""><img src="img/banderas/ES.png" class="ui middle aligned image" alt="flag ES" /></i> Español</a>
+                                <a class="item" href=""><img src="img/banderas/GB.png" class="ui middle aligned image" alt="flag FR" /> English</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right menu open" style="margin-left: 0 !important;">
+                        <a href="" class="menu item toggle">
+                            <i class="content icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ui vertical red secondary borderless attached stacked fluid menu" style="display: none;">
+                    <a href="" class="item active"><i class="home icon"></i> Inicio</a>
+                    <a href="" class="item"><i class="hotel icon"></i> Reservas</a>
+                    <a href="" class="item"><i class="photo icon"></i> Galería</a>
+                    <a href="" class="item"><i class="info circle icon"></i> Otros Servicios</a>
+                    <a href="" class="item"><i class="mail icon"></i> Contacto</a>
+                    <a href="" class="item admin"><i class="lock icon"></i> Admin</a>
+                    
+                </div>
+            </div>
+            <!-- FIN: Menú de navegación -->
+
+        </div>
+        <!-- <div class="ui bottom attached menu">
+                <a class="item">Browse</a>
+                <a class="item">Submit</a>
+                <div class="right menu">
+                    <a class="item">Sign Up</a>
+                    <a class="item">Help</a>
+                </div>
+            </div> -->
+        <div class="main row">
+            <div class="column">
+                <button class="huge ui red button homeReserva">
+                    Reserva ahora
+                </button>
+            </div>
+        </div>
+
+        <div class="ui inverted attached segment footer">
+            Footer
+        </div>
+
+
+    </div>
+
+    <!-- Scripts JS antes cierre body -->
+    <script src="http://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/semantic-ui/2.2.9/semantic.min.js"></script>
+    <script src="semantic.js"></script>
+    <!-- FIN:  Scripts JS antes cierre body -->
+</body>
+
+</html>

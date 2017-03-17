@@ -1,0 +1,72 @@
+.row.header {
+    background-color: #2C2C2C;    
+    border-bottom: 2px solid #DB2828;
+}
+
+.three.logo {
+    text-align: center;
+    padding: 12px 0 0 0 !important;
+    position: relative;
+    left: 12px;
+    background-color: #FFF;
+    border-bottom: 2px solid #DB2828;
+    border-right: 2px solid #DB2828;
+}
+
+.navbar {
+}
+
+
+
+.secondary.ui.menu {
+    /*margin-top: 5px;*/
+    background-color: #2C2C2C;
+    padding: 8px;
+    border: 0px !important;
+    border-top: 2px solid #DB2828 !important;
+    
+    
+}
+
+.ui.secondary.ui.menu .item {
+    color: #FFF
+}
+
+.ui.secondary.ui.menu a.item:hover {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.ui.secondary.ui.menu .item.admin {
+    font-size: .8em;    
+}
+
+.main {
+    background-color: aliceblue;
+    height: 85vh;
+    align-content: center;
+    text-align: center;
+    background-image: url(img/fondo2.jpg);
+    background-size: cover
+}
+
+.homeReserva {
+    position: relative;
+    top: 70vh;
+}
+
+
+
+.ui.menu .right.menu .dropdown:last-child .menu {
+    background-color: #2C2C2C;
+}
+
+.ui.menu .ui.dropdown .menu>.active.item {
+    color: #DB2828 !important;
+}
+
+.ui.menu .ui.dropdown .menu>.item {
+    color: #FFF !important;
+}
+.ui.menu .ui.dropdown .menu>.item:not(.active):hover {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
