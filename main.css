@@ -1,72 +1,111 @@
-.row.header {
-    background-color: #2C2C2C;    
-    border-bottom: 2px solid #DB2828;
+/* Construyo unas 'custom properties' para manejar
+más facilmente los colores.*/
+
+:root {
+    --rojo: #FF695E;
+    --negro: #2C2C2C;
+    --blanco: #FFF;
 }
+
+
+/* HEADER (logo + navbar) */
+
+.row.header {
+    background-color: var(--negro);
+    border-bottom: 2px solid var(--rojo);
+}
+
+
+/* Logo cabecera */
 
 .three.logo {
     text-align: center;
     padding: 12px 0 0 0 !important;
     position: relative;
     left: 12px;
-    background-color: #FFF;
-    border-bottom: 2px solid #DB2828;
-    border-right: 2px solid #DB2828;
+    background-color: var(--blanco);
+    border-bottom: 2px solid var(--rojo);
+    border-right: 2px solid var(--rojo);
+    /* FIN: Logo cabecera */
 }
 
-.navbar {
-}
-
-
-
+    /* Menú de Navegación */ 
 .secondary.ui.menu {
-    /*margin-top: 5px;*/
-    background-color: #2C2C2C;
+    background-color: var(--negro);
     padding: 8px;
     border: 0px !important;
-    border-top: 2px solid #DB2828 !important;
-    
-    
+    border-top: 2px solid var(--rojo) !important;
 }
-
 .ui.secondary.ui.menu .item {
-    color: #FFF
+    color: var(--blanco)
 }
-
 .ui.secondary.ui.menu a.item:hover {
     color: rgba(255, 255, 255, 0.5)
+    /* Menú de Navegación */ 
 }
 
-.ui.secondary.ui.menu .item.admin {
-    font-size: .8em;    
-}
-
-.main {
-    background-color: aliceblue;
-    height: 85vh;
-    align-content: center;
-    text-align: center;
-    background-image: url(img/fondo2.jpg);
-    background-size: cover
-}
-
-.homeReserva {
-    position: relative;
-    top: 85%;
-}
-
-
-
+    /* Menú desplegable: banderas */
 .ui.menu .right.menu .dropdown:last-child .menu {
-    background-color: #2C2C2C;
+    background-color: var(--negro);
 }
-
-.ui.menu .ui.dropdown .menu>.active.item {
-    color: #DB2828 !important;
-}
-
 .ui.menu .ui.dropdown .menu>.item {
-    color: #FFF !important;
+    color: var(--blanco) !important;
+}
+.ui.menu .ui.dropdown .menu>.active.item {
+    color: var(--rojo) !important;
 }
 .ui.menu .ui.dropdown .menu>.item:not(.active):hover {
     color: rgba(255, 255, 255, 0.7) !important;
+    /* FIN: Menú desplegable: banderas */
 }
+
+    /* Opción Admin (texto más pequeño) */
+.ui.secondary.ui.menu .item.admin {
+    font-size: .8em;
+    /* FIN: Opción Admin (texto más pequeño) */
+}
+/* FIN: HEADER (logo + navbar) */
+
+
+
+
+
+/* Fondo pantalla Inicio */
+.main {
+    background-color: aliceblue;
+    min-height: 85vh;
+}
+.inicio {
+    align-content: center;
+    text-align: center;
+    background-image: url(img/fondo.jpg);
+    background-size: cover    
+}
+
+    /* Botón reservar */
+.homeReserva {
+    position: relative;
+    top: 85%;
+    /* FIN: Botón reservar */
+}
+/* FIN: Fondo pantalla Inicio */
+
+
+/********************* 
+***** rooms.html *****
+*********************/
+
+.rooms {
+    margin: 0 auto
+}
+
+.ui.segment.titulo {
+    background-color: var(--negro);
+    margin-bottom: 2em
+}
+
+
+/* FOOTER */
+
+
+/* FIN: FOOTER */
