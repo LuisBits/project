@@ -8,7 +8,7 @@ más facilmente los colores.*/
     --blanco: #FFF;
 }
 
-html, body {
+html {
     margin: 0 auto;
     width: 100%
 }
@@ -109,9 +109,10 @@ html, body {
 *********************/
 
 /* Contenedor principal */
-.rooms {
+.main.rooms.row {
     background-color: var(--gris);
     background-image: url(img/textura.png);
+    margin: 0 auto
 }
 
 .rooms .container {
@@ -128,6 +129,6 @@ html, body {
     filter: hue-rotate(320deg);
 }
     /* FIN: Filtro para imágenes */ 
-
+.card .content.info {text-align: left}
 
 /* FIN: Contenedor principal */
