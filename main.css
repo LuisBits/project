@@ -4,9 +4,14 @@ más facilmente los colores.*/
 :root {
     --rojo: #FF695E;
     --negro: #2C2C2C;
+    --gris:#777777;
     --blanco: #FFF;
 }
 
+html, body {
+    background-color: var(--gris);
+    background-image: url(img/textura.png);
+}
 
 /* HEADER (logo + navbar) */
 
@@ -72,7 +77,7 @@ más facilmente los colores.*/
 
 /* Fondo pantalla Inicio */
 .main {
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
     min-height: 85vh;
 }
 .inicio {
@@ -90,13 +95,23 @@ más facilmente los colores.*/
 }
 /* FIN: Fondo pantalla Inicio */
 
+/* FOOTER */
+.ui.segment.footer {
+    background-color: var(--negro);
+}
+
+/* FIN: FOOTER */
+
 
 /********************* 
 ***** rooms.html *****
 *********************/
 
+/* Contenedor principal */
 .rooms {
-    margin: 0 auto
+    background-color: var(--gris);
+    margin-bottom: 2em;
+    background-image: url(img/textura.png);
 }
 
 .ui.segment.titulo {
@@ -105,7 +120,4 @@ más facilmente los colores.*/
 }
 
 
-/* FOOTER */
-
-
-/* FIN: FOOTER */
+/* FIN: Contenedor principal */
