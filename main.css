@@ -123,6 +123,11 @@ html, body {
     background-color: var(--negro);
     margin-bottom: 2em
 }
+    /* Filtro para imágenes (resalta color rojo) */ 
+.card .image {
+    filter: hue-rotate(320deg);
+}
+    /* FIN: Filtro para imágenes */ 
 
 
 /* FIN: Contenedor principal */
