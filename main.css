@@ -106,8 +106,12 @@ más facilmente los colores.*/
 /* Contenedor principal */
 .rooms {
     background-color: var(--gris);
-    margin-bottom: 2em;
     background-image: url(img/textura.png);
+}
+
+.rooms .container {
+    margin-bottom: 2em;
+    
 }
 
 .ui.segment.titulo {
