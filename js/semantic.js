@@ -13,5 +13,10 @@ $(function () {
 	});
         
 	$('.ui.dropdown').dropdown();
+    
+    $('.ui.cards .card').dimmer({
+    on: 'hover'
+  })
+;
 
 })
