@@ -9,8 +9,8 @@ más facilmente los colores.*/
 }
 
 html, body {
-    background-color: var(--gris);
-    background-image: url(img/textura.png);
+    /*background-color: var(--gris);
+    background-image: url(img/textura.png); */
     margin: 0;
 }
 
