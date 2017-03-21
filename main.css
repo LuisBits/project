@@ -8,11 +8,6 @@ más facilmente los colores.*/
     --blanco: #FFF;
 }
 
-html, body {
-    /*background-color: var(--gris);
-    background-image: url(img/textura.png); */
-    margin: 0;
-}
 
 /* HEADER (logo + navbar) */
 
